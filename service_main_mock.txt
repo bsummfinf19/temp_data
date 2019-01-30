@@ -1,0 +1,48 @@
+POST /login
+Response:
+
+{
+	"user": {
+		"login": "test1",
+		"image": "http://"
+	}
+}
+
+POST /order
+Response:
+
+{}
+
+GET /videos/recommended
+Response:
+
+{
+	"videos": [
+		{
+			"title": "test",
+			"content": ""
+		},
+		{
+			"title": "test",
+			"content": ""
+		}
+	]
+}
+
+GET /search?test
+Response:
+
+{
+	"count": 10,
+	"results": [
+		{
+			"id": 1,
+			"name": "test"
+		},
+		{
+			"id": 498,
+			"name": "test"
+		}
+	]
+}
+
